@@ -163,11 +163,13 @@ Return a list of users given a filter</p>
 </code>
 </p>
 
-<p><b>Sample Response</b><br>
-<code>
+<b>Sample Response</b><br>
+<div class="highlight-js"><div class="highlight">
+<pre>
 [{"&#95;: { "$oid" : "55ca20b9c4aac050466bc1a3"} , "userId" : "tester1" , "password" : "password1" , "firstName" : "Tester" , "lastName" : "One" , "groups" : [ "opengrid_users_L1"]}]
-</code>
-</p>
+</pre>
+</div>
+</div>
 
 <p><b>POST</b><br>
 Create a new user. Returns object for newly created user, if successful.
